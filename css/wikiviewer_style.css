@@ -1,0 +1,152 @@
+/*common layout related*/
+html, body, #wrap {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ff6c5f;
+}
+
+#wrap {
+  min-width: 18.75rem;
+}
+
+#header, #main, #wikisearchbox, .wikipagebox {
+  display: flex;
+  flex-direction: column;
+	align-items: center;
+  justify-content: center;
+}
+
+#header, #main {
+  width: 100%;
+  margin-bottom: 0.625rem;
+}
+
+#wikisearchbox, .wikipagebox {
+  width: 90%;
+}
+
+.choice{
+  display: flex;
+  flex-direction: row;
+	align-items: center;
+  justify-content: center;
+  width: 90%;
+  margin: 0.3125rem;
+}
+
+
+/*header*/
+#searchbox, #randombtn{
+  width: 9.375rem;
+  height: 2.8125rem;
+  margin-left: 0.625rem;
+  box-sizing: border-box; /*加了padding之後實際width不會增加*/
+  font-size: 1.125rem;
+  font-weight: bold;
+  background: white;
+  border-radius: 0.625rem;
+  border: 0;
+}
+
+#searchbox {
+  padding-left: 1.25rem;
+}
+
+#randombtn {
+  cursor: pointer;
+  -webkit-transition-duration: 0.2s; 
+  transition-duration: 0.2s;
+}
+
+.icon {
+  vertical-align: middle;
+}
+
+#searchbox:focus, #randombtn:focus {
+  outline: none;
+}
+
+#searchbox:focus {
+  width: 80%;
+}
+
+#randombtn:hover {
+  color: white;
+  background: #d20962;
+}
+
+
+/*main*/
+.article {
+  width: 90%;
+  min-height: 7.5rem;
+  margin: 0.625rem;
+  padding: 0.9375rem;
+  display: block;
+  background-color: #dbc5b0;
+  border-radius: 0.3125rem;
+}
+
+.article:focus {
+  border: 0.1875rem white solid;
+}
+
+
+/*just font-related*/
+h1, #searchbox, #randombtn, .title, .text {
+  font-family:"Lucida Bright", Georgia, serif;
+  color: black;
+}
+
+h1, #copyright, #copyright a, .fa{
+  color: white;
+}
+
+h1 {
+  font-size: 1.875rem;
+}
+
+.title {
+  margin-bottom: 0;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+#copyright {
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/*back to top button*/
+#top {
+    width: 1.875rem;
+    height: 1.875rem;
+    display: none;
+    position: fixed;
+    bottom: 0.625rem;
+    right: 2%;
+    z-index: 1000;
+    padding: 0.625rem;
+    color: white;
+    background: #d20962;
+    font-size: 1rem;
+    font-weight: bold; 
+    border-radius: 50%;
+    cursor: pointer; 
+    border: none;
+    outline: none;
+    opacity: 0.5;
+}
+
+#top:hover {
+    opacity: 1;
+}
