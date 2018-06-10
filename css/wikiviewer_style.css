@@ -89,6 +89,7 @@ body {
   display: block;
   background-color: #dbc5b0;
   border-radius: 0.3125rem;
+  line-height: 1.6;
 }
 
 .article:focus {
@@ -128,22 +129,13 @@ a {
 
 /*back to top button*/
 #top {
-    width: 1.875rem;
-    height: 1.875rem;
     display: none;
     position: fixed;
     bottom: 0.625rem;
     right: 2%;
     z-index: 1000;
-    padding: 0.625rem;
     color: white;
-    background: #d20962;
-    font-size: 1rem;
-    font-weight: bold; 
-    border-radius: 50%;
     cursor: pointer; 
-    border: none;
-    outline: none;
     opacity: 0.5;
 }
 
