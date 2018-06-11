@@ -1,10 +1,3 @@
-/* TODO:
- --back to top function on mobile
- http://blog.jonathanargentiero.com/jquery-scrolltop-not-working-on-mobile-devices-iphone-ipad-android-phones/
-  ......still didn't work :(
- --zh database
-*/
-
 
 $(document).ready(function(){
   
