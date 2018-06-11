@@ -11,4 +11,4 @@
 * CSS
 * jQuery
 * Font Awesome
-* Wikipedia API
+* English Wikipedia API
