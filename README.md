@@ -1,5 +1,5 @@
 # project-WikipediaViewer
-* Project topic from: freeCodeCamp - Legacy Front End Development Course
+* Project topic from: freeCodeCamp - Legacy Front End Projects- Build a Wikipedia Viewer
 * [Live](https://pocoapocochen.github.io/project-WikipediaViewer/) version
 
 ## User Story
